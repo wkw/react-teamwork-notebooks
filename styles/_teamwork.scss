@@ -1,0 +1,168 @@
+body {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+a{
+  color: #000;
+  text-decoration: none;
+  &:hover {
+    color: #000;
+    text-decoration: underline;
+  }
+}
+#filter-wrap {
+  margin-bottom: 15px;
+  display: inline-block;
+}
+input {
+  font-size: 16px;
+  margin: 3px;
+  width: 248px;
+}
+
+#hints-box {
+  display: inline-block;
+  padding: 4px 7px;
+  max-width: 272px;
+  margin-left: 10px;
+  font-size: .85em;
+  color: #AAABAD;
+  vertical-align: top;
+  margin-top: 5px;
+  font-style: italic;
+}
+
+#projects-table {
+  margin-bottom: 40px;
+}
+.close-control {
+  background-color: #008080;
+  clear: both;
+  float: left;
+  color: #FFF;
+  cursor: pointer;
+  padding: 4px;
+  margin-bottom: 8px;
+  margin-top: 5px;
+}
+.contents-wrap {
+  clear: both;
+  background-color: #fff;
+  font-weight: normal;
+}
+
+.notebooks-binder {
+  margin: 25px 8px;
+  padding: 20px;
+  border: 1px solid #CECECE;
+  border-radius: 3px;
+  box-shadow: 1px 1px 4px 0 #CECECE;
+  background-color: #FCF9F0;
+
+  .notebook-rings {
+    clear: both;
+    display: block;
+    height: 7px;
+    margin: 7px;
+    background-image: url("../img/bubble.png");
+    width: auto;
+  }
+
+  table {
+    word-break: normal;
+    padding: 0;
+    word-break: normal;
+    border-spacing: 3px;
+    border-collapse: separate;
+    td {
+      border: 1px solid #CCCCCC;
+      text-align: left;
+      margin: 0;
+      padding: 6px 13px;
+    }
+
+  }
+
+  table tr {
+    border-top: 1px solid #CCC;
+    background-color: #FFF;
+    margin: 0;
+    padding: 0
+  }
+
+  table tr:nth-child(2n) {
+    border-top: 1px solid #CCC;
+    background-color: #F8F8F8;
+    margin: 0;
+    padding: 0
+  }
+}
+
+#bookmarklet > div {
+  height: 70px;
+  width: 340px;
+  text-align: center;
+  background-color: rgba(176, 238, 74, 0.78);
+  margin-left: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 8px;
+  left: 440px;
+  p {
+    margin: 5px 0;
+  }
+  a {
+    text-decoration: underline;
+  }
+}
+
+.error {
+  max-width: 700px;
+}
+.error code {
+  font-weight: bold;
+  font-size: 1.4em;
+}
+.error h2 {
+  color: #fff;
+  background-color: #e91010;
+  padding: 10px;
+}
+
+#key-entry-wrap {
+  .error {
+    color: red;
+  }
+}
+
+
+.row {
+  clear: both;
+  margin: 8px 10px;
+
+  &:hover {
+    //background-color: #f4e1a9;
+    font-weight: bold;
+  }
+}
+.col {
+  float: left;
+  padding: 5px;
+  background-color: inherit;
+  padding-left: 10px;
+}
+.col:first-child {
+  min-width: 400px;
+}
+.col:nth-child(2) {
+  width: 30%;
+  border-left: 1px solid #677eb1;
+}
+.row:nth-child(odd) {
+  /*   background-color: #e2fcd9; */
+}
+.col.header {
+  font-weight: bold;
+  background-color: #ccbce5;
+}
